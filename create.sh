@@ -8,5 +8,5 @@ gcloud compute instances create \
     --tags puma-server \
     --restart-on-failure \
     --zone=europe-west1-d \
-    --metadata-from-file startup-script=./startup.sh \
+    --metadata-from-file "startup-script=./startup.sh" \
     reddit-app-2
